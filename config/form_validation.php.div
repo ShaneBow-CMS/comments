@@ -1,0 +1,4 @@
+	'comment-post'=> [
+		['field'=> 'oid',      'rules'=> 'required|is_natural'],
+		['field'=> 'entry',    'rules'=> 'required|max_length[65535]']
+		],

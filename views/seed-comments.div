@@ -1,0 +1,16 @@
+ <div class="col-md-4">
+  <div class="panel panel-red">
+   <div class="panel-heading">Create Comments Tables</div>
+   <div class="panel-body">
+    <p>Drops then creates the following tables:</p>
+    <ul>
+     <li>comments &rarr; reader comments for each page</li>
+    </ul>
+    <p>Net effect is a few dummy comments.</p>
+   </div>
+   <form action="/admin/comment/seed" method="post" class="panel-footer">
+    <input name="auth" class="form-control" placeholder="Auth Code">
+    <button type="submit" class="btn btn-outline btn-danger btn-xs">OK</button>
+   </form>
+  </div>
+ </div>
